@@ -1,4 +1,4 @@
-public class Circle implements Movable{
+public class Circle extends Shape implements Movable{
 
         protected double radius;
         private int x, y;
@@ -25,7 +25,12 @@ public class Circle implements Movable{
             return area;
         }
 
-        @Override
+    @Override
+    public double egtArea() {
+        return 0;
+    }
+
+    @Override
     public void displayshapName(){
             System.out.println("Drawing a Circle of radius " + this.radius);
         }
@@ -34,7 +39,12 @@ public class Circle implements Movable{
             return "(" + x + "," + y + ")";
         }
 
-        @Override
+    @Override
+    public String someThing() {
+        return "";
+    }
+
+    @Override
     public void moveUp(){
             y++;
         }

@@ -25,5 +25,14 @@ public class Main {
 
         c2.moveLeft();
         System.out.println("After move left, coordinate are " + c2.getCoordinate());
+
+
+
+        Rectangle test1 = new Rectangle("Julio", 29);
+        System.out.println("My name is " + test1.name + " I am " + test1.age);
+
+
+
+
     }
 }

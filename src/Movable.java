@@ -9,4 +9,6 @@ public interface Movable {
     void displayshapName();
 
     String getCoordinate();
+
+    String someThing();
 }
